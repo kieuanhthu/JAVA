@@ -37,7 +37,6 @@ public class main {
 				loanDto.getSaleId();
 				// Thêm đối tượng đó vào list LoanApplicationDTO
 				loanApps.add(loanDto);
-				loanDto.getSaleId();
 			}
 			// show list
 			System.out.println(loanApps);
