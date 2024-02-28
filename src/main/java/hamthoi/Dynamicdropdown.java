@@ -23,7 +23,7 @@ public class Dynamicdropdown {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ctl00_mainContent_ddl_originStation1_CTXT"))).click();
 		Thread.sleep(2000);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@value='BLR']"))).click();
-		driver.findElement(By.xpath("//a[@value='BLR']")).click(); Khong co element nay be oi có mà bác
+		driver.findElement(By.xpath("//a[@value='BLR']")).click(); 
 		Thread.sleep(2000);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[@value='MAA'])[2]"))).click();
 
